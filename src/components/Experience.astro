@@ -1,0 +1,47 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCIE = [
+  {
+    date: "Noviembre 2024 - Actualmente...",
+    title: "Desarrollador Full Stack",
+    company: "Gometrixs | Viacon Tours",
+    description:
+      "Durante su tiempo en la empresa, ha trabajado con las siguientes tecnologías: Laravel, React.js, Javascript, Typescript, PHP, MySQL, SQLite, Antd, Boostrap , XML, HTML , CSS, Git, GitHub, Postman, Docker, Figma.",
+    link: "https://drive.google.com/file/d/1j5ocxr9QuGCM5mutd_Y8MTpK-7m6TF_6/view?usp=sharing",
+  },
+  {
+    date: "2Marzo 2024 - Abril 2024",
+    title: "Desarrollador Full Stack",
+    company: "Twiiti",
+    description:
+      "Colaboré en la fase inicial de un sistema a medida para un cliente, participando en la recolección de requerimientos, el diseño y estructuración de la base de datos, así como en la configuración del entorno de desarrollo.",
+    link: "https://drive.google.com/file/d/1k2uVMTjdXao__6ZWPPN9jzR0dxaU6pfr/view?usp=sharing",
+  },
+  {
+    date: "Marzo 2024 - Noviembre 2024",
+    title: "Auxiliar de Laboratorio",
+    company: "UAGRM",
+    description:
+      "UAGRMMe encargo del mantenimiento de los equipos y del software utilizado, asegurando su correctofuncionamiento. También realizo la corrección de errores y la solución de fallas técnicas para garantizarla operatividad de los laboratorios",
+    link: "https://drive.google.com/file/d/14TNhy426babBn-4n8R6DmQJa5SvMCqrb/view?usp=sharing",
+  },
+  {
+    date: "Junio 2023 - Septiembre 2023",
+    title: "Desarrollador Full Stack ",
+    company: "Ificorp - BizManager",
+    description:
+      "Participé activamente en el desarrollo y evolución del sistema principal de la empresa, implementando nuevas funcionalidades orientadas a mejorar la experiencia del usuario y los procesos internos. También trabajé en la optimización de módulos existentes y en la reestructuración del sistema para lograr un rendimiento más eficiente y escalable",
+    link: "https://drive.google.com/file/d/1KfL1BfBz2JL9jrxZVI8zl-OTAcT5pNvz/view?usp=sharing",
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>

@@ -1,0 +1,53 @@
+---
+import {DIPLOMAS} from '@/data/diplomas'
+import Badge from './Badge.astro';
+import { Image } from "astro:assets"
+---
+
+<div class="flex p-0 m-0">
+  <div class="mx-auto max-w-2xl sm:px-6 sm:py-2 lg:max-w-7xl">
+    <!-- <div
+      class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+    > -->
+    <div class="mt-6 grid grid-cols-2 gap-4">
+      {
+        DIPLOMAS.map(({ image, title, tags, link }) => (
+          <div class="w-full">
+            <div class="flex flex-col col-span-6 row-span-5 gap-3 pb-4">
+              <div class="relative items-center transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={image}
+                  alt={title}
+                  style="max-height: 250px; min-height: 250px;"
+                  //class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                />
+                </a>
+              </div>
+              <p class="flex justify-center">{title}</p>
+              <div class="mx-auto">
+                <ul class="grid gap-4 grid-cols-2">
+                  {tags.map((tag) => (
+                    <Badge>{tag.name}</Badge>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  // Find our component DOM on the page.
+  const buttons = document.querySelectorAll("[data-button]");
+
+  // Add event listeners to fire confetti when a button is clicked.
+  buttons.forEach((button) => {
+    button.addEventListener("click", () =>
+      console.log(button.getAttribute("data-button"))
+    );
+  });
+</script>

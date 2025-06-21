@@ -1,0 +1,44 @@
+---
+const personalImageAlt = "Carlos Brayan";
+---
+
+<article
+  class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+  <div
+    class="[&>p]:mb-4 px-5 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+    <p>Ing. Joan Paul Cruz Vargas.</p>
+
+    <p>
+      Soy un desarrollador full stack apasionado por la tecnología y por crear soluciones que realmente aporten valor. 
+      Me formé como ingeniero en sistemas y complementé mis estudios con experiencia práctica en desarrollo web, 
+      desde el diseño de base de datos hasta la implementación de interfaces funcionales y modernas.
+    </p>
+
+    <p>
+      Durante mi trayectoria he trabajado tanto en proyectos académicos como en entornos profesionales reales,
+      colaborando en equipos multidisciplinarios y asumiendo diversas responsabilidades: desarrollo de funcionalidades,
+      corrección de errores, reestructuración de sistemas y mantenimiento preventivo, entre otros. 
+      Me he desempeñado en diferentes contextos del desarrollo de software, siempre con una actitud proactiva,
+      una mentalidad enfocada en la mejora continua y una gran capacidad de adaptación
+    </p>
+
+    <p>
+      Estoy convencido de que el aprendizaje continuo y la colaboración son claves para crecer en esta industria. 
+    </p>
+
+    <p>
+       Gracias por tomarte el tiempo de conocer un poco sobre mí; estaré encantado de colaborar contigo en futuros proyectos.
+    </p>
+  </div>
+
+  <img
+    width="200"
+    height="200"
+    src="/me.jpg"
+    alt={personalImageAlt}
+    class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+    style="object-position: 50% 50%"
+  />
+</article>
