@@ -1,0 +1,53 @@
+---
+import { SKILLS } from "@/data/skills";
+---
+
+<div class="space-y-10">
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-black/90 dark:text-white">Frontend</h3>
+    <div class="flex flex-wrap gap-4">
+      {SKILLS.frontend.map(({ name, class: className, icon: Icon }) => (
+        <div class={`flex items-center gap-2 px-3 py-1 text-sm font-medium rounded-full ${className}`}>
+          <Icon class="w-5 h-5" />
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-black/90 dark:text-white">Backend</h3>
+    <div class="flex flex-wrap gap-4">
+      {SKILLS.backend.map(({ name, class: className, icon: Icon }) => (
+        <div class={`flex items-center gap-2 px-3 py-1 text-sm font-medium rounded-full ${className}`}>
+          <Icon class="w-5 h-5" />
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-black/90 dark:text-white">Bases de datos</h3>
+    <div class="flex flex-wrap gap-4">
+      {SKILLS.database.map(({ name, class: className, icon: Icon }) => (
+        <div class={`flex items-center gap-2 px-3 py-1 text-sm font-medium rounded-full ${className}`}>
+          <Icon class="w-5 h-5" />
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-black/90 dark:text-white">Otros</h3>
+    <div class="flex flex-wrap gap-4">
+      {SKILLS.others.map(({ name, class: className, icon: Icon }) => (
+        <div class={`flex items-center gap-2 px-3 py-1 text-sm font-medium rounded-full ${className}`}>
+          <Icon class="w-5 h-5" />
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
