@@ -47,5 +47,11 @@ export const EDUCATION = [
     year: "2025",
     tags: [{ name: "Imagenes"}, { name: "Contenedores"}, { name: "Volumenes"}]
   },
+    {
+    title: "NESTJS Y MICROSERVICIOS",
+    institution: "DevTalles",
+    year: "2025",
+    tags: [{ name: "NESTJS"}, { name: "MICROSERVICIOS"}]
+  },
 
 ];

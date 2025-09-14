@@ -7,9 +7,9 @@ export const SKILLS = {
     TAGS.REACT,
     TAGS.JAVASCRIPT,
     TAGS.TYPESCRIPT,
+    TAGS.ANTD,
     TAGS.BOOTSTRAP,
     TAGS.TAILWIND,
-    TAGS.ANTD,
   ],
   backend: [
     TAGS.LARAVEL,
