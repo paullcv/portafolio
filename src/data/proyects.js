@@ -1,5 +1,4 @@
 import {TAGS} from './tags'
-import BravoImage from '../assets/projects/bravosa.jpg'
 import Fotovent from '../assets/projects/fotovent.png'
 import Turismointeligente from '../assets/projects/turismointeligente.png'
 import EmoCareImage from '../assets/projects/emocare.png'
@@ -11,15 +10,15 @@ export const PROJECTS = [
     {
       title: "Fotovent",
       description:
-        "Plataforma que conecta invitados, fotógrafos y organizadores de eventos mediante IA de reconocimiento facial, permitiendo a los asistentes encontrar y adquirir fácilmente sus fotografías.",
+        "Plataforma que conecta invitados, fotógrafos y organizadores de eventos mediante IA de reconocimiento facial (FaceAPI), integrada en Laravel, permitiendo a los asistentes encontrar y adquirir fácilmente sus fotografías. Incluye suscripciones y planes de pago con Stripe, almacenamiento de imágenes en AWS S3, y notificaciones automáticas por correo cuando un usuario aparece en una foto.",
       image: Fotovent,
       github: "https://github.com/paullcv/Fotovent.git",
-      tags: [TAGS.TAILWIND, TAGS.FIGMA, TAGS.MONGO, TAGS.VUE, TAGS.VUETI],
+      tags: [TAGS.LARAVEL, TAGS.TAILWIND, TAGS.MYSQL, TAGS.REACT, TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.POSTMAN],
     },
     {
       title: "TraBol - Turismo Inteligente",
       description:
-        "¡Obtén tus tarjetas de regalo favoritas de forma rápida, segura y con recompensas! Nuestra aplicación te permite encargar tarjetas de regalo de plataformas como (Google, Amazon, Netflix...). Disfruta de un proceso de compra sencillo, pagos seguros y la posibilidad de ganar puntos por cada compra y por referir a tus amigos.",
+        "Plataforma integral para incentivar el turismo en Bolivia, centralizando hoteles, boletos de transporte, restaurantes y renta de autos. Incluye carrito de compras, pagos en línea con PayPal y paquetes turísticos personalizados para viajeros.",
       image: Turismointeligente,
       github: "https://github.com/paullcv/ProyectoTurismoInteligente.git",
       tags: [TAGS.BOOTSTRAP, TAGS.LARAVEL, TAGS.MYSQL],
@@ -27,7 +26,7 @@ export const PROJECTS = [
     {
       title: "EmoCare",
       description:
-        "Sistema multiplataforma que permita la centralización de los pasajes de diferentes medios de transporte y la de las reservas.",
+        "Plataforma educativa diseñada para colegios en Santa Cruz - Bolivia, enfocada en la detección temprana de riesgos emocionales (bullying, acoso, depresión). Incluye cuestionarios basados en metodologías psicológicas y un modelo de análisis de sentimientos entrenado con vocabulario local (Hugging Face), capaz de clasificar respuestas como positivas, neutras o negativas. Genera reportes y alertas automáticas para docentes y padres cuando se detectan patrones de riesgo en los estudiantes.",
       image: EmoCareImage,
       github: "https://github.com/paullcv/emocare.git",
       tags: [TAGS.DJANGO, TAGS.BOOTSTRAP, TAGS.POSTGRES, TAGS.PYTHON],
@@ -35,7 +34,7 @@ export const PROJECTS = [
     {
       title: "RRHH microservicio y analizador de CV",
       description:
-        "Sistema de gestión de negocio + TPV (Terminal de Punto de Venta). IPV, Estadísticas, Almacén, Existencia,Ventas, etc.El sitio administrativo desde donde gestiona todo el negocio cuenta con 9 secciones principales",
+        "Sistema de Recursos Humanos desarrollado con enfoque en microservicios y soporte de inteligencia artificial. Integra una librería de Python para procesar currículums en PDF, extrayendo y categorizando la información más relevante de los postulantes. Realiza un match automático entre candidatos y requisitos de las vacantes, optimizando el proceso de reclutamiento en empresas de software.",
       image: mockup_rrhh,
       github: "https://github.com/paullcv/RRHH.git",
       tags: [TAGS.BOOTSTRAP, TAGS.LARAVEL, TAGS.SQLITE, TAGS.PHP],
@@ -43,7 +42,7 @@ export const PROJECTS = [
     {
       title: "Brillitos Rosa",
       description:
-        "Esta iniciativa ha rescatado las páginas de décadas pasadas del deterioro y la mala manipulación, preservando un legado de conocimiento, lucha y empoderamiento femenino. La base de datos no solo conserva estos documentos históricos, sino que también los hace accesibles para la investigación, la educación y la inspiración.",
+        "E-commerce desarrollado para un emprendimiento de cosméticos y productos de belleza. Integra pagos con Pago Fácil, carrito de compras, gestión completa de catálogo, productos y paquetes, control de ingresos/egresos, buscador avanzado y reportes gráficos con métricas clave.",
       image: brillitosrosa,
       github: "https://github.com/paullcv/Brillitos_Rosa.git",
       tags: [TAGS.LARAVEL, TAGS.SQLITE, TAGS.PHP],
@@ -51,7 +50,7 @@ export const PROJECTS = [
     {
       title: "SignaVox",
       description:
-        "El producto posee un alcance internacional. Este software esta creado con el propósito de que se conozcan los productos que se elaboran en la empresa mixta de productos cárnicos, Bravos S.A. ",
+        "Aplicación móvil para la traducción en tiempo real del lenguaje de señas boliviano. La primera fase implementa correctamente la traducción de abecedario, números y saludos básicos mediante un modelo entrenado con librerías de Python. El proyecto estaba planificado en tres etapas, incluyendo reconocimiento de secuencias de señas y construcción de oraciones completas para comunicación fluida, quedando abierto para futuras ampliaciones.",
       image: mockup_signavox,
       github: "https://github.com/paullcv/SignaVoxBackend.git",
       tags: [TAGS.PHP, TAGS.BOOTSTRAP],

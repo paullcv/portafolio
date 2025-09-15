@@ -26,7 +26,7 @@ export const EDUCATION = [
   {
     title: "Laravel de 0 a Avanzado",
     institution: "Codersfree",
-    year: "2024",
+    year: "2023",
     tags: [{ name: "Laravel" }, { name: "Boostrap" } ,{ name: "Tailwind"}, { name: "Aplhine"}],
   },
   {
