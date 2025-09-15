@@ -14,6 +14,10 @@ export const PROJECTS = [
       image: Fotovent,
       github: "https://github.com/paullcv/Fotovent.git",
       tags: [TAGS.LARAVEL, TAGS.TAILWIND, TAGS.MYSQL, TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.POSTMAN, TAGS.LIVEWIRE, TAGS.AWS],
+      fotos: "",
+      analista: "",
+      datos: "",
+      test: "",
     },
     {
       title: "TraBol - Turismo Inteligente",
@@ -22,6 +26,10 @@ export const PROJECTS = [
       image: Turismointeligente,
       github: "https://github.com/paullcv/ProyectoTurismoInteligente.git",
       tags: [TAGS.LARAVEL, TAGS.TAILWIND, TAGS.MYSQL, TAGS.REACT, TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.POSTMAN],
+      fotos: "",
+      analista: "",
+      datos: "",
+      test: "",
     },
     {
       title: "EmoCare",
@@ -38,6 +46,10 @@ export const PROJECTS = [
       image: mockup_rrhh,
       github: "https://github.com/paullcv/RRHH.git",
       tags: [TAGS.LARAVEL, TAGS.JAVASCRIPT, TAGS.DJANGO, TAGS.PYTHON, TAGS.BOOTSTRAP, TAGS.MYSQL, TAGS.POSTMAN, TAGS.DOCKER],
+      fotos: "",
+      analista: "",
+      datos: "",
+      test: "",
     },
     {
       title: "Brillitos Rosa",
@@ -46,6 +58,10 @@ export const PROJECTS = [
       image: brillitosrosa,
       github: "https://github.com/paullcv/Brillitos_Rosa.git",
       tags: [TAGS.LARAVEL, TAGS.MYSQL, TAGS.PHP, TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.POSTMAN],
+      fotos: "",
+      analista: "",
+      datos: "",
+      test: "",
     },
     {
       title: "SignaVox",
@@ -54,6 +70,10 @@ export const PROJECTS = [
       image: mockup_signavox,
       github: "https://github.com/paullcv/SignaVoxBackend.git",
       tags: [TAGS.DJANGO, TAGS.PYTHON, TAGS.LARAVEL],
+      fotos: "",
+      analista: "",
+      datos: "",
+      test: "",
     },
   ]
   
