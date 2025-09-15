@@ -24,6 +24,8 @@ import Postman from "@/components/Postman.astro";
 import GitHub from "@/components/icons/GitHub.astro";
 import GIt from "@/components/icons/GIt.astro";
 import Docker from "@/components/icons/Docker.astro";
+import AWS from "@/components/icons/Aws.astro";
+import Livewire from "@/components/icons/Livewire.astro";
 
 export const TAGS = {
   REACT: {
@@ -82,9 +84,9 @@ export const TAGS = {
     icon: GitHub,
   },
   DOCKER: {
-    name: "Docker",                   // Nombre legible
+    name: "Docker", // Nombre legible
     class: "bg-[#2395EC] text-white", // Clases de Tailwind (azul Docker oficial)
-    icon: Docker,                     // Componente SVG importado
+    icon: Docker, // Componente SVG importado
   },
   VUE: {
     name: "Vue.js",
@@ -155,5 +157,15 @@ export const TAGS = {
     name: "PHP",
     class: "bg-[#003159] text-white",
     icon: Php,
+  },
+  AWS: {
+    name: "AWS",
+    class: "bg-[#232f3e] text-[#f90]",
+    icon: AWS,
+  },
+  LIVEWIRE: {
+    name: "Livewire",
+    class: "bg-[#fb70a9] text-white",
+    icon: Livewire,
   },
 };

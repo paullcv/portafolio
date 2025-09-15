@@ -12,6 +12,12 @@ export const EDUCATION = [
     tags: [{ name: "Universidad" }],
   },
   {
+    title: "Diplomado en DevOps Essentials",
+    institution: "UAGRM School of Engineering",
+    year: "2024",
+    tags: [{ name: "Universidad" }],
+  },
+  {
     title: "Curso de Inglés Intermedio b1+",
     institution: "CAI",
     year: "2019-2023",
